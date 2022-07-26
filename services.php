@@ -1,9 +1,33 @@
-<?php
-    include_once 'nav.php';
-    ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/21e6ee8472.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>3Tech</title>
+</head>
 <body>
-
-<body>
+    <nav class="navbar shadow navbar-expand-lg bg-light mx">
+        <div class="container-fluid ms-4">
+            <a class="navbar-brand" href="#">3Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse me-4" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link text-primary" aria-current="page" href="index.php">Home</a>
+                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="services.php">Services</a>
+                <a class="nav-link" href="team.php">Team</a>
+                <a class="nav-link" href="#footer">Contact</a>
+            </div>
+        </div>
+    </nav>
     <div class="jumbotron-fluid d-flex justify-content-between bg-image" id="jumbotron">
         <div class="container-fluid py-5">
             <h1 class="display-6 fw-bold">Extensive global expertise in policy, commerce, and</h1>
@@ -96,8 +120,88 @@
             </div>
         </div>
     </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: #303030" id="footer">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                        3Tech Business Connection
+                        </h6>
+                        <p>
+                            Moving forward with quality work, we have been committed to making progress and developing as a leading service provider company in the Construction Industry.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+                    <hr class="w-100 clearfix d-md-none" />
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> Rasuna Said one, jl. Rasuna Said no.20 - Jakarta, Indonesia</p>
+                        <p><i class="fas fa-envelope mr-3"></i> 3Tech@3Tech.co.id</p>
+                        <p><i class="fas fa-phone mr-3"></i> (021) 123-1234</p>
+                        <p><i class="fas fa-print mr-3"></i> (021) 123-1234</p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+                        <!-- Facebook -->
+                        <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #3b5998"
+                        href="https://www.facebook.com/PTWASKITAKARYA/"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <!-- Twitter -->
+                        <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #55acee"
+                        href="https://twitter.com/waskita_karya"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-twitter"></i
+                        ></a>
+                        <!-- Youtube -->
+                        <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #dd4b39"
+                        href="https://www.youtube.com/channel/UCQX2Dvr2x-bzkV1MlijknSg"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-youtube"></i
+                        ></a>
+                        <!-- Instagram -->
+                        <a
+                        class="btn btn-primary btn-floating m-1"
+                        style="background-color: #ac2bac"
+                        href="https://www.instagram.com/waskita_karya/"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+        <!--Grid row-->
+            </section>
+        <!-- Section: Links -->
+        </div>
+        <div
+        class="text-center p-3"
+        style="background-color: blue"
+        >
+        © 2022 Copyright 3Tech Business Connection
+        </div>
+        <!-- Copyright -->
+    </footer>
 </body>
-
-<?php
-    include_once 'footer.php';
-    ?>
+</html>
