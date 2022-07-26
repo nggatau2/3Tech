@@ -29,7 +29,7 @@ include_once 'nav.php';
                     </div>
                     
                     <p class="card-text">Our team of expert practitioners will facilitate custom-built strategy sessions with proven methodologies, practical tools and hands-on exercises for designing a strategy and putting an effective management system in place. We provide the framework and structure; your team builds a great plan</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="services.php" class="btn btn-primary">See More..</a>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ include_once 'nav.php';
                         <h5 class="card-title">  Business Turnaround</h5>
                     </div>
                     <p class="card-text">Our turnaround management consulting services include discoveries, financial restructuring, cost reduction and revenue improvement opportunities. Working with management, investment bankers, lawyers, and other professionals, we help companies improve results for the benefit of all stakeholders.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="services.php" class="btn btn-primary">See More..</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@ include_once 'nav.php';
                         <h5 class="card-title">Government Policy & Political Risk Analysis</h5>
                     </div>
                     <p class="card-text pb-4">Our policy and political risk consulting team helps business leaders to anticipate, analyze and navigate the challenges arising from political developments. We provide policy and political risk consulting and advisory services that are timely, market-relevant and forward-looking.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="services.php" class="btn btn-primary">See More..</a>
                 </div>
             </div>
         </div>
