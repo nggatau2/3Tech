@@ -20,7 +20,7 @@
         </div>
         <div class="collapse navbar-collapse me-4" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
+                <a class="nav-link text-primary" aria-current="page" href="index.php">Home</a>
                 <a class="nav-link" href="about.php">About</a>
                 <a class="nav-link" href="services.php">Services</a>
                 <a class="nav-link" href="team.php">Team</a>
